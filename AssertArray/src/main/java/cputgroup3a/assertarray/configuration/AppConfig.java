@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Bean;
  *
  * @author kurvin
  */
-public class ApppConfig {
+public class AppConfig {
     @Bean(name="AA")
     public AssertArrayService getService(){
         return new AssertArrayServiceImpl();
